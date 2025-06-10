@@ -834,9 +834,7 @@
 			},
 			{
 				"name": "Bonelord's Chosen",
-				"factions": [
-					"The Free Folk"
-				],
+				"factions": [],
 				"availableIn": [
 					{
 						"in": "Lord of Bones"
@@ -878,9 +876,7 @@
 			},
 			{
 				"name": "Thenn Warriors",
-				"factions": [
-					"The Free Folk"
-				],
+				"factions": [],
 				"availableIn": [
 					{
 						"in": "Styr, Magnar of Thenn"
@@ -933,9 +929,7 @@
 			},
 			{
 				"name": "Frozen Shore Hunters",
-				"factions": [
-					"The Free Folk"
-				],
+				"factions": [],
 				"availableIn": [
 					{
 						"in": "The Great Walrus"
@@ -982,9 +976,7 @@
 			},
 			{
 				"name": "Frozen Shore Bear Riders",
-				"factions": [
-					"The Free Folk"
-				],
+				"factions": [],
 				"availableIn": [
 					{
 						"in": "The Great Walrus"
