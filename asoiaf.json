@@ -641,7 +641,7 @@
 				"fight": 2,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 4,
+				"defence": 3,
 				"attack": 1,
 				"wounds": 1,
 				"courage": 8,
@@ -688,9 +688,92 @@
 				]
 			},
 			{
+				"name": "Basic Armour",
+				"type": "armour",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": 1
+					}
+				]
+			},
+			{
+				"name": "Armour",
+				"type": "armour",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": 2
+					}
+				]
+			},
+			{
+				"name": "Heavy Armour",
+				"type": "armour",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": 3
+					}
+				]
+			},
+			{
+				"name": "Light Armour",
+				"definition": "A model wearing Light Armour will add 1 to their Defence characteristic against Shooting Attacks. If a model is wearing light armour then the Defence improvement will not have been added onto their profile."
+			},
+			{
+				"name": "Shield",
+				"type": "shield",
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": 1,
+						"cancelledBy": {
+							"type": "bow",
+							"uncancelledByKeyword": "Expert Rider"
+						}
+					}
+				]
+			},
+			{
 				"name": "Bow",
 				"type": "bow",
-				"definition": "24\" Range, 2 Strength"
+				"definition": "18\" Range, 2 Strength"
+			},
+			{
+				"name": "Longbow",
+				"type": "bow",
+				"definition": "24\" Range, 3 Strength"
+			},
+			{
+				"name": "Dothraki Bow",
+				"type": "bow",
+				"definition": "24\" Range, 3 Strength"
+			},
+			{
+				"name": "Crossbow",
+				"type": "bow",
+				"definition": "24\" Range, 4 Strength"
+			},
+			{
+				"name": "Throwing Spears",
+				"type": "throwingWeapon",
+				"definition": "8\" Range, 3 Strength"
+			},
+			{
+				"name": "Throwing Weapon",
+				"type": "throwingWeapon",
+				"definition": "6\" Range, 3 Strength"
+			},
+			{
+				"name": "Throwing Axes",
+				"type": "throwingWeapon",
+				"definition": "6\" Range, 3 Strength"
+			},
+			{
+				"name": "Banner",
+				"type": "banner",
+				"definition": "A banner provides a single re-roll to friendly models who are involved in a Fight within 3\". Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to their Duel rolls."
 			}
 		],
 		"keywords": [
