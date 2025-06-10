@@ -1,0 +1,730 @@
+{
+  "config": {
+    "trackHighestDivision": true
+  },
+  "appVersion": 2,
+  "disallowMultipleFactions": true,
+  "colors": {
+    "light": {
+      "primary": "#841912",
+      "background": "#a58650",
+      "pageBackground": "#fffffe",
+      "buttonBackground": "#e2ded3",
+      "primaryBorder": "#841912",
+      "primaryBackgroundColor": "#fffffe"
+    },
+    "dark": {
+      "primary": "#fffffe",
+      "background": "#814143",
+      "pageBackground": "#3b1d1e",
+      "buttonBackground": "#a58650",
+      "primaryBorder": "#841912",
+      "primaryBackgroundColor": "#841912"
+    }
+  },
+  "credit": [
+    {
+      "type": "text",
+      "text": "Data provided by CrazyOC"
+    }
+  ],
+  "game": "ASOIAF Module for MESBG",
+  "toggles": [],
+  "scenarios": [
+    "Hold Ground",
+    "Destroy the Supplies",
+    "Reconnoitre",
+    "Domination",
+    "To the Death!",
+    "Fog of War",
+    "Capture & Control",
+    "Breakthrough",
+    "Stake a Claim",
+    "Lords of Battle",
+    "Assassination",
+    "Contest of Champions",
+    "Heirloom of Ages Past",
+    "Sites of Power",
+    "Command the Battlefield",
+    "Retrieval",
+    "Seize the Prizes",
+    "Treasure Hoard",
+    "Storm the Camp",
+    "Divide & Conquer",
+    "Escort the Wounded",
+    "Clash By Moonlight",
+    "Lead from the Front",
+    "Convergence"
+  ],
+  "stats": [
+    {
+      "name": "Movement",
+      "abbreviation": "Mv",
+      "trail": "\""
+    },
+    {
+      "name": "Fight",
+      "abbreviation": "FV"
+    },
+    {
+      "name": "Shoot",
+      "abbreviation": "SV",
+      "trail": "+"
+    },
+    {
+      "name": "Strength",
+      "abbreviation": "S"
+    },
+    {
+      "name": "Defence",
+      "abbreviation": "D"
+    },
+    {
+      "name": "Attack",
+      "abbreviation": "A"
+    },
+    {
+      "name": "Wounds",
+      "abbreviation": "W",
+      "expendable": true,
+      "onlyExpendableIfGreaterThanOne": true
+    },
+    {
+      "name": "Courage",
+      "abbreviation": "C",
+      "trail": "+"
+    },
+    {
+      "name": "Intelligence",
+      "abbreviation": "I",
+      "trail": "+"
+    },
+    {
+      "name": "",
+      "abbreviation": "|",
+      "showIf": "Might"
+    },
+    {
+      "name": "Might",
+      "abbreviation": "M",
+      "expendable": true
+    },
+    {
+      "name": "Will",
+      "abbreviation": "W",
+      "expendable": true
+    },
+    {
+      "name": "Fate",
+      "abbreviation": "F",
+      "expendable": true
+    }
+  ],
+  "dataTableKeys": [
+    "heroes",
+    "warriors"
+  ],
+  "limits": [
+    {
+      "type": "bow",
+      "property": "warriors",
+      "byFaction": true,
+      "maximumPercentage": 33.33,
+      "roundUp": true,
+      "label": "warrior bows"
+    },
+    {
+      "type": "throwingWeapon",
+      "property": "warriors",
+      "byFaction": true,
+      "maximumPercentage": 33.33,
+      "roundUp": true,
+      "label": "warrior throwing weapons"
+    }
+  ],
+  "counts": [
+    "bow",
+    {
+      "property": "throwingWeapon",
+      "label": "throwing weapon"
+    }
+  ],
+  "calculations": [
+    {
+      "label": "Broken",
+      "property": "models",
+      "percentage": 50.00001,
+      "roundup": true,
+      "suffix": " killed"
+    },
+    {
+      "label": "Quartered",
+      "property": "models",
+      "percentage": 25,
+      "roundup": false,
+      "suffix": " remaining"
+    },
+    {
+      "label": "Might",
+      "properties": [
+        "might"
+      ]
+    }
+  ],
+  "validations": [
+    {
+      "type": "propertyPerTier",
+      "property": "keywords",
+      "value": [
+        "Siege Engine",
+        "Siege Weapon"
+      ],
+      "maxPer": 1,
+      "tier": 3,
+      "message": "You must have one hero of at least Hero of Fortitude for each Siege keyword."
+    }
+  ],
+  "leaderConfig": {
+    "elementPropertyName": "heroes",
+    "usesProperty": "heroicTier"
+  },
+  "additionalPrint": [
+    {
+      "propertyName": "wargear",
+      "label": "Wargear",
+      "dataSource": "gear"
+    },
+    {
+      "propertyName": "heroicActions",
+      "label": "Heroic Actions"
+    },
+    {
+      "propertyName": "specialRules",
+      "label": "Special Rules",
+      "dataSource": "keywords"
+    }
+  ],
+  "additionalDb": [
+    {
+      "propertyName": "magicalPowers",
+      "label": "Magical Powers"
+    }
+  ],
+  "elements": [
+    {
+      "propertyName": "factions",
+      "label": "Faction",
+      "type": "faction",
+      "dataSource": "factions",
+      "removeWhenNotPrimary": [
+        "armyBonus"
+      ],
+      "divisionProperty": "alignment",
+      "divisions": [
+        "War of the Five Kings",
+		"Robert's Rebellion",
+        "Dance of the Dragons",
+		"Aegon's Conquest"
+      ],
+      "children": [
+        {
+          "propertyName": "additionalRules",
+          "label": "Additional Rules: ",
+          "type": "static",
+          "bullet": true
+        },
+        {
+          "propertyName": "armyBonuses",
+          "label": "",
+          "type": "static",
+          "dataSource": "armyBonuses"
+        },
+        {
+          "propertyName": "specialRules",
+          "type": "static",
+          "label": "Related Special Rules: ",
+          "bullet": true,
+          "dataSource": "keywords"
+        },
+        {
+          "propertyName": "heroes",
+          "dataSource": "heroes",
+          "label": "Hero",
+          "type": "main",
+          "tierProperty": "heroicTier",
+          "tierData": "heroicTiers",
+          "tiers": [
+            {
+              "name": "Hero of Legend",
+              "maximumChildren": {
+                "warriors": 18
+              },
+              "rank": 1
+            },
+            {
+              "name": "Hero of Valour",
+              "maximumChildren": {
+                "warriors": 15
+              },
+              "rank": 2
+            },
+            {
+              "name": "Hero of Fortitude",
+              "maximumChildren": {
+                "warriors": 12
+              },
+              "rank": 3
+            },
+            {
+              "name": "Minor Hero",
+              "maximumChildren": {
+                "warriors": 6
+              },
+              "rank": 4
+            },
+            {
+              "name": "Independent Hero",
+              "maximumChildren": {
+                "warriors": 0
+              },
+              "canBeChild": true,
+              "rank": 5
+            }
+          ],
+          "children": [
+            {
+              "singleKey": "warrior",
+              "dataSource": "warriors",
+              "propertyName": "warriors",
+              "label": "Model",
+              "type": "list",
+              "children": [
+                {
+                  "propertyName": "magicalPowers",
+                  "label": "Magical Powers",
+                  "type": "static",
+                  "dataSource": "magicalPowers",
+                  "stats": [
+                    {
+                      "name": "Magical Power",
+                      "propertyName": "name"
+                    },
+                    {
+                      "name": "Range",
+                      "propertyName": "range",
+                      "trail": "\"",
+                      "definedOnUnit": true
+                    },
+                    {
+                      "name": "Casting",
+                      "propertyName": "casting",
+                      "trail": "+",
+                      "definedOnUnit": true
+                    },
+                    {
+                      "name": "Duration",
+                      "propertyName": "duration",
+                      "inTooltip": true,
+                      "printDisplay": "parentheses"
+                    },
+                    {
+                      "name": "Definition",
+                      "propertyName": "definition",
+                      "inTooltip": true
+                    }
+                  ]
+                },
+                {
+                  "propertyName": "options",
+                  "type": "checkbox",
+                  "dataSource": "gear",
+                  "disallowedMultiples": [
+                    "bow",
+                    "mount",
+                    "armour",
+                    "shield"
+                  ]
+                },
+                {
+                  "propertyName": "wargear",
+                  "label": "Wargear",
+                  "type": "static",
+                  "dataSource": "gear",
+                  "disallowedMultiples": [
+                    "bow",
+                    "mount",
+                    "armour",
+                    "shield"
+                  ],
+                  "children": [
+                    {
+                      "propertyName": "wargear",
+                      "label": "Wargear",
+                      "type": "static",
+                      "dataSource": "gear"
+                    },
+                    {
+                      "label": "Special Rules",
+                      "propertyName": "specialRules",
+                      "type": "static",
+                      "dataSource": "keywords"
+                    },
+                    {
+                      "propertyName": "race",
+                      "label": "Race",
+                      "type": "static"
+                    },
+                    {
+                      "propertyName": "faction",
+                      "label": "Faction",
+                      "type": "static"
+                    },
+                    {
+                      "propertyName": "unitType",
+                      "label": "Unit Type",
+                      "type": "static"
+                    },
+                    {
+                      "propertyName": "baseSize",
+                      "label": "Base Size",
+                      "type": "static"
+                    }
+                  ]
+                },
+                {
+                  "propertyName": "specialRules",
+                  "type": "static",
+                  "label": "Special Rules",
+                  "dataSource": "keywords",
+                  "children": [
+                    {
+                      "label": "Special Rules",
+                      "propertyName": "specialRules",
+                      "type": "static",
+                      "dataSource": "keywords"
+                    }
+                  ]
+                },
+                {
+                  "propertyName": "heroicActions",
+                  "label": "Heroic Actions",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "race",
+                  "label": "Race",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "faction",
+                  "label": "Faction",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "unitType",
+                  "label": "Unit Type",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "baseSize",
+                  "label": "Base Size",
+                  "type": "static"
+                }
+              ]
+            },
+            {
+              "propertyName": "wargear",
+              "label": "Wargear",
+              "type": "static",
+              "dataSource": "gear",
+              "disallowedMultiples": [
+                "bow",
+                "mount",
+                "armour",
+                "shield"
+              ]
+            },
+            {
+              "propertyName": "options",
+              "type": "checkbox",
+              "dataSource": "gear",
+              "disallowedMultiples": [
+                "bow",
+                "mount",
+                "armour",
+                "shield"
+              ],
+              "children": [
+                {
+                  "label": "Special Rules",
+                  "propertyName": "specialRules",
+                  "type": "static",
+                  "dataSource": "keywords"
+                },
+                {
+                  "propertyName": "race",
+                  "label": "Race",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "faction",
+                  "label": "Faction",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "unitType",
+                  "label": "Unit Type",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "baseSize",
+                  "label": "Base Size",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "heroicActions",
+                  "label": "Heroic Actions",
+                  "type": "static"
+                }
+              ]
+            },
+            {
+              "propertyName": "specialRules",
+              "label": "Special Rules",
+              "type": "static",
+              "dataSource": "keywords",
+              "children": [
+                {
+                  "label": "Special Rules",
+                  "propertyName": "specialRules",
+                  "type": "static",
+                  "dataSource": "keywords"
+                }
+              ]
+            },
+            {
+              "propertyName": "heroicActions",
+              "label": "Heroic Actions",
+              "type": "static"
+            },
+            {
+              "propertyName": "range",
+              "label": "Range",
+              "type": "static"
+            },
+            {
+              "propertyName": "race",
+              "label": "Race",
+              "type": "static"
+            },
+            {
+              "propertyName": "faction",
+              "label": "Faction",
+              "type": "static"
+            },
+            {
+              "propertyName": "unitType",
+              "label": "Unit Type",
+              "type": "static"
+            },
+            {
+              "propertyName": "baseSize",
+              "label": "Base Size",
+              "type": "static"
+            },
+            {
+              "propertyName": "magicalPowers",
+              "label": "Magical Powers",
+              "type": "static",
+              "dataSource": "magicalPowers",
+              "stats": [
+                {
+                  "name": "Magical Power",
+                  "propertyName": "name"
+                },
+                {
+                  "name": "Range",
+                  "propertyName": "range",
+                  "trail": "\"",
+                  "definedOnUnit": true
+                },
+                {
+                  "name": "Casting",
+                  "propertyName": "casting",
+                  "trail": "+",
+                  "definedOnUnit": true
+                },
+                {
+                  "name": "Duration",
+                  "propertyName": "duration",
+                  "inTooltip": true,
+                  "printDisplay": "parentheses"
+                },
+                {
+                  "name": "Definition",
+                  "propertyName": "definition",
+                  "inTooltip": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "data": {
+    "factions": [
+      {
+        "name": "The Free Folk",
+        "alignment": "War of the Five Kings",
+        "specialRules": [
+        ],
+        "armyBonuses": [
+        ]
+      }
+    ],
+    "heroicTiers": [
+      {
+        "name": "Hero of Legend",
+        "followers": 18
+      },
+      {
+        "name": "Hero of Valour",
+        "followers": 15
+      },
+      {
+        "name": "Hero of Fortitude",
+        "followers": 12
+      },
+      {
+        "name": "Minor Hero",
+        "followers": 6
+      },
+      {
+        "name": "Independent Hero",
+        "followers": 0
+      }
+    ],
+    "heroes": [
+      {
+        "name": "Mance Rayder",
+        "factions": [
+          {
+            "name": "The Free Folk",
+            "heroicTier": "Hero of Legend"
+          }
+        ],
+        "unlimited": false,
+        "points": 70,
+        "movement": 6,
+        "fight": 5,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 7,
+        "attack": 2,
+        "wounds": 2,
+        "courage": 5,
+        "intelligence": 6,
+        "might": 2,
+        "will": 1,
+        "fate": 1,
+        "race": [
+          "Man"
+        ],
+        "faction": [
+          "Free Folk"
+        ],
+        "unitType": [
+          "Hero",
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Hand weapon"
+        ],
+        "heroicActions": [
+          "Heroic March"
+        ],
+        "specialRules": [
+        ],
+        "options": [
+        ]
+      },
+	],
+	"warriors": [
+	{
+        "name": "Free Folk Raiders",
+        "factions": [
+          "Free Folk"
+        ],
+        "points": 8,
+        "movement": 6,
+        "fight": 2,
+        "shoot": 4,
+        "strength": 4,
+        "defence": 4,
+        "attack": 1,
+        "wounds": 1,
+        "courage": 8,
+        "intelligence": 8,
+        "race": [
+          "Man"
+        ],
+        "faction": [
+          "Free Folk"
+        ],
+        "unitType": [
+          "Warrior",
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Hand weapon"
+        ],
+        "options": [
+          {
+            "name": "Bow",
+            "points": 2,
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+	],
+  "gear": [
+	{
+        "name": "Test",
+        "tag": "Passive",
+        "definition": "Blah"
+    },
+	{
+        "name": "Test 2",
+        "modifiesStats": [
+          {
+            "stat": "strength",
+            "modifier": 1
+          }
+        ]
+    },
+	{
+        "name": "Bow",
+        "type": "bow",
+        "definition": "24\" Range, 2 Strength"
+     }
+  ],
+  "keywords": [
+	{
+        "name": "Test",
+        "tag": "Passive",
+        "definition": "Test"
+    },
+  ],
+  "armyBonuses": [
+	{
+        "name": "Test",
+        "definition": "Test"
+    },
+  ]
