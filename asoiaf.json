@@ -620,13 +620,14 @@
 				"baseSize": [
 					"25mm"
 				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [],
 				"wargear": [
 					"Hand weapon"
 				],
 				"options": [],
-				"heroicActions": [
-					"Heroic March"
-				]
 			}
 		],
 		"warriors": [
