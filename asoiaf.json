@@ -1039,16 +1039,10 @@
 				],
 				"wargear": [
 					"Throwing Weapon",
-					"Hand weapon"
+					"Hand weapon",
+					"White Bear"
 				],
-				"options": [],
-				"requiredChildren": [
-					{
-						"elementPropertyName": "options",
-						"name": "White Bear",
-						"points": 0
-					}
-				]
+				"options": []
 			},
 			{
 				"name": "Spearwives",
