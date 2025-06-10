@@ -556,7 +556,10 @@
 		"factions": [
 			{
 				"name": "The Free Folk",
-				"alignment": "WotFK"
+				"alignment": "WotFK",
+				"armyBonuses": [
+					"Test"
+				]
 			}
 		],
 		"heroicTiers": [
@@ -645,7 +648,7 @@
 					"Man"
 				],
 				"faction": [
-					"Free Folk"
+					"Wildlings"
 				],
 				"unitType": [
 					"Warrior",
