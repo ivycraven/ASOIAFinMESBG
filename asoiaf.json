@@ -1200,7 +1200,7 @@
         		"name": "White Bear",
         		"type": "mount",
 				"movement": 8,
-				"fight": 5,
+				"fight": 6,
 				"shoot": 6,
 				"strength": 6,
 				"defence": 6,
@@ -1246,6 +1246,11 @@
         		"name": "Stalk Unseen",
         		"tag": "Passive",
         		"definition": "An Infantry model with this special rule that is partially concealed from view by a piece of terrain cannot be seen at distances of more than 6\". This means that enemy models cannot target this model with Shooting Attacks, Magical Powers, special rules, or anything else that requires Line of Sight unless they have a completely clear view of this model."
+      		},
+			{
+        		"name": "Monstrous Charge",
+        		"tag": "Active",
+        		"definition": "If a model with this special rule Charges into Combat, then it will increase its Attacks characteristic by 1 during the ensuing Fight Phase. Additionally, if this model Charges and subsequently wins the Duel Roll, then all enemy models involved in the Combat with a Strength characteristic lower than this model, will be immediately knocked Prone before this model makes Strikes. Cavalry models will automatically count as suffering the Knocked Flying result on the Thrown Rider Chart."
       		},
 			{
 				"name": "It's Your Bones I'll Be Rattlin' Soon",
