@@ -686,14 +686,14 @@
 	    }
 	  ],
 	  "keywords": [
-		{
+			{
 	        "name": "Test",
 	        "tag": "Passive",
 	        "definition": "Test"
 	    }
 	  ],
 	  "armyBonuses": [
-		{
+			{
 	        "name": "Test",
 	        "definition": "Test"
 	    }
