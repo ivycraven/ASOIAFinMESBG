@@ -601,122 +601,122 @@
         "followers": 0
       }
     ],
-    "heroes": [
-      {
-        "name": "Mance Rayder",
-        "factions": [
-          {
-            "name": "The Free Folk",
-            "heroicTier": "Hero of Legend"
-          }
-        ],
-        "unlimited": false,
-        "points": 70,
-        "movement": 6,
-        "fight": 5,
-        "shoot": 4,
-        "strength": 4,
-        "defence": 7,
-        "attack": 2,
-        "wounds": 2,
-        "courage": 5,
-        "intelligence": 6,
-        "might": 2,
-        "will": 1,
-        "fate": 1,
-        "race": [
-          "Man"
-        ],
-        "faction": [
-          "Free Folk"
-        ],
-        "unitType": [
-          "Hero",
-          "Infantry"
-        ],
-        "baseSize": [
-          "25mm"
-        ],
-        "wargear": [
-          "Hand weapon"
-        ],
-        "heroicActions": [
-          "Heroic March"
-        ]
-      }
-	],
-	"warriors": [
+	  "heroes": [
+	    {
+	      "name": "Mance Rayder",
+	      "factions": [
+	        {
+	          "name": "The Free Folk",
+	          "heroicTier": "Hero of Legend"
+	        }
+	      ],
+	      "unlimited": false,
+	      "points": 70,
+	      "movement": 6,
+	   	 	"fight": 5,
+	      "shoot": 4,
+	      "strength": 4,
+	      "defence": 7,
+	      "attack": 2,
+	      "wounds": 2,
+	      "courage": 5,
+	      "intelligence": 6,
+	      "might": 2,
+	      "will": 1,
+	      "fate": 1,
+	      "race": [
+	        "Man"
+	      ],
+	      "faction": [
+	        "Free Folk"
+	      ],
+	      "unitType": [
+	        "Hero",
+	        "Infantry"
+	      ],
+	      "baseSize": [
+	        "25mm"
+	      ],
+	      "wargear": [
+	        "Hand weapon"
+	      ],
+	      "heroicActions": [
+	        "Heroic March"
+	      ]
+	    }
+		],
+		"warriors": [
+			{
+	      "name": "Free Folk Raiders",
+	      "factions": [
+	        "Free Folk"
+	      ],
+	      "points": 8,
+	      "movement": 6,
+	      "fight": 2,
+	      "shoot": 4,
+	      "strength": 4,
+	      "defence": 4,
+	      "attack": 1,
+	      "wounds": 1,
+	      "courage": 8,
+	      "intelligence": 8,
+	      "race": [
+	        "Man"
+	      ],
+	      "faction": [
+	        "Free Folk"
+	      ],
+	      "unitType": [
+	        "Warrior",
+	         "Infantry"
+	      ],
+	      "baseSize": [
+	         "25mm"
+	      ],
+	      "wargear": [
+	         "Hand weapon"
+	      ],
+	      "options": [
+	      	{
+	        	"name": "Bow",
+	        	"points": 2,
+	          "chooseOneKey": "a"
+	        }
+	      ]
+	    }
+		],
+	  "gear": [
+			{
+	        "name": "Test",
+	        "tag": "Passive",
+	        "definition": "Blah"
+	    },
+			{
+	        "name": "Test 2",
+	        "modifiesStats": [
+	          {
+	            "stat": "strength",
+	            "modifier": 1
+	          }
+	        ]
+	    },
+			{
+	        "name": "Bow",
+	        "type": "bow",
+	        "definition": "24\" Range, 2 Strength"
+	    }
+	  ],
+	  "keywords": [
 		{
-        "name": "Free Folk Raiders",
-        "factions": [
-          "Free Folk"
-        ],
-        "points": 8,
-        "movement": 6,
-        "fight": 2,
-        "shoot": 4,
-        "strength": 4,
-        "defence": 4,
-        "attack": 1,
-        "wounds": 1,
-        "courage": 8,
-        "intelligence": 8,
-        "race": [
-          "Man"
-        ],
-        "faction": [
-          "Free Folk"
-        ],
-        "unitType": [
-          "Warrior",
-          "Infantry"
-        ],
-        "baseSize": [
-          "25mm"
-        ],
-        "wargear": [
-          "Hand weapon"
-        ],
-        "options": [
-          {
-            "name": "Bow",
-            "points": 2,
-            "chooseOneKey": "a"
-          }
-        ]
-    }
-	],
-  "gear": [
+	        "name": "Test",
+	        "tag": "Passive",
+	        "definition": "Test"
+	    }
+	  ],
+	  "armyBonuses": [
 		{
-        "name": "Test",
-        "tag": "Passive",
-        "definition": "Blah"
-    },
-		{
-        "name": "Test 2",
-        "modifiesStats": [
-          {
-            "stat": "strength",
-            "modifier": 1
-          }
-        ]
-    },
-		{
-        "name": "Bow",
-        "type": "bow",
-        "definition": "24\" Range, 2 Strength"
-    }
-  ],
-  "keywords": [
-	{
-        "name": "Test",
-        "tag": "Passive",
-        "definition": "Test"
-    }
-  ],
-  "armyBonuses": [
-	{
-        "name": "Test",
-        "definition": "Test"
-    }
-  ]
+	        "name": "Test",
+	        "definition": "Test"
+	    }
+	  ]
