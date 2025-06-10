@@ -221,10 +221,10 @@
       ],
       "divisionProperty": "alignment",
       "divisions": [
-        "War of the Five Kings",
-		"Robert's Rebellion",
-        "Dance of the Dragons",
-		"Aegon's Conquest"
+        "WotFK",
+				"RobertsRebellion",
+        "DotD",
+				"AegonsConquest"
       ],
       "children": [
         {
@@ -576,11 +576,7 @@
     "factions": [
       {
         "name": "The Free Folk",
-        "alignment": "War of the Five Kings",
-        "specialRules": [
-        ],
-        "armyBonuses": [
-        ]
+        "alignment": "WotFK"
       }
     ],
     "heroicTiers": [
@@ -646,15 +642,11 @@
         ],
         "heroicActions": [
           "Heroic March"
-        ],
-        "specialRules": [
-        ],
-        "options": [
         ]
       }
 	],
 	"warriors": [
-	{
+		{
         "name": "Free Folk Raiders",
         "factions": [
           "Free Folk"
@@ -692,15 +684,15 @@
             "chooseOneKey": "a"
           }
         ]
-      }
+    }
 	],
   "gear": [
-	{
+		{
         "name": "Test",
         "tag": "Passive",
         "definition": "Blah"
     },
-	{
+		{
         "name": "Test 2",
         "modifiesStats": [
           {
@@ -709,7 +701,7 @@
           }
         ]
     },
-	{
+		{
         "name": "Bow",
         "type": "bow",
         "definition": "24\" Range, 2 Strength"
