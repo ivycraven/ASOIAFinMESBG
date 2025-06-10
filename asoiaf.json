@@ -201,10 +201,10 @@
 			],
 			"divisionProperty": "alignment",
 			"divisions": [
-				"WotFK",
-				"RobertsRebellion",
-				"DotD",
-				"AegonsConquest"
+				"War of the Five Kings",
+				"Robert's Rebellion",
+				"Dance of the Dragons",
+				"Aegon's Conquest"
 			],
 			"children": [
 				{
@@ -556,7 +556,7 @@
 		"factions": [
 			{
 				"name": "The Free Folk",
-				"alignment": "WotFK",
+				"alignment": "War of the Five Kings",
 				"armyBonuses": [
 					"Test"
 				]
@@ -611,7 +611,7 @@
 					"Man"
 				],
 				"faction": [
-					"Free Folk"
+					"Wildlings"
 				],
 				"unitType": [
 					"Hero",
@@ -634,7 +634,7 @@
 			{
 				"name": "Free Folk Raiders",
 				"factions": [
-					"Free Folk"
+					"The Free Folk"
 				],
 				"points": 8,
 				"movement": 6,
