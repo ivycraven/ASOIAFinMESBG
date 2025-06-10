@@ -1045,7 +1045,8 @@
 				"requiredChildren": [
 					{
 						"elementPropertyName": "options",
-						"name": "White Bear"
+						"name": "White Bear",
+						"points": 0
 					}
 				]
 			},
