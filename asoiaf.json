@@ -586,7 +586,7 @@
 		],
 		"heroes": [
 			{
-				"name": "Mance Rayder",
+				"name": "Mance Rayder, King Beyond the Wall",
 				"factions": [
 					{
 						"name": "The Free Folk",
@@ -594,19 +594,19 @@
 					}
 				],
 				"unlimited": false,
-				"points": 70,
+				"points": 140,
 				"movement": 6,
-				"fight": 5,
+				"fight": 7,
 				"shoot": 4,
 				"strength": 4,
-				"defence": 7,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 5,
-				"intelligence": 6,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
+				"defence": 3,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
 				"race": [
 					"Man"
 				],
@@ -621,11 +621,162 @@
 					"25mm"
 				],
 				"heroicActions": [
-					"Heroic March"
+					"Heroic Strength",
+					"Heroic Strike",
+					"Heroic Resolve"
 				],
 				"specialRules": [],
 				"wargear": [
-					"Hand weapon"
+					"Hand weapon",
+					"Armour"
+				],
+				"options": []
+			},
+			{
+				"name": "Lord of Bones",
+				"factions": [
+					{
+						"name": "The Free Folk",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": false,
+				"points": 110,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 5,
+				"defence": 3,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 6,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings",
+					"Followers of the Bonelord"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Challenge"
+				],
+				"specialRules": [
+					"Terror",
+					"It's Your Bones I'll Be Rattlin' Soon"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Armour"
+				],
+				"options": []
+			},
+			{
+				"name": "Styr, Magnar of Thenn",
+				"factions": [
+					{
+						"name": "The Free Folk",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": false,
+				"points": 110,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 3,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 6,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings",
+					"Thenn"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Challenge"
+				],
+				"specialRules": [
+					"More a God than a Man"
+				],
+				"wargear": [
+					"Spear of the Magnar",
+					"Heavy Armour"
+				],
+				"options": []
+			},
+			{
+				"name": "The Great Walrus",
+				"factions": [
+					{
+						"name": "The Free Folk",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": false,
+				"points": 110,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 4,
+				"courage": 4,
+				"intelligence": 6,
+				"might": 3,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings",
+					"Thenn"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic Strength",
+					"Heroic Defence"
+				],
+				"specialRules": [
+					"Burly"
+				],
+				"wargear": [
+					"Two-handed weapon",
+					"Armour"
 				],
 				"options": []
 			}
@@ -665,8 +816,263 @@
 				],
 				"options": [
 					{
+						"name": "Spear",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
 						"name": "Bow",
 						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Bonelord's Chosen",
+				"factions": [
+					"The Free Folk"
+				],
+				"availableIn": [
+					{
+						"in": "Lord of Bones"
+					}
+				],
+				"points": 14,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 3,
+				"attack": 2,
+				"wounds": 1,
+				"courage": 5,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings",
+					"Followers of the Bonelord"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Terror",
+					"Horrific Visage"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Basic Armour"
+				],
+				"options": []
+			},
+			{
+				"name": "Thenn Warriors",
+				"factions": [
+					"The Free Folk"
+				],
+				"availableIn": [
+					{
+						"in": "Styr, Magnar of Thenn"
+					}
+				],
+				"points": 11,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings",
+					"Thenn"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Furious Charge"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Armour",
+					"Shield"
+				],
+				"options": [
+					{
+						"name": "Spear",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Frozen Shore Hunters",
+				"factions": [
+					"The Free Folk"
+				],
+				"availableIn": [
+					{
+						"in": "The Great Walrus"
+					}
+				],
+				"points": 11,
+				"movement": 8,
+				"fight": 2,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings",
+					"Frozen Shore"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Stalk Unseen"
+				],
+				"wargear": [
+					"Throwing Weapon",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Frozen Shore Bear Riders",
+				"factions": [
+					"The Free Folk"
+				],
+				"availableIn": [
+					{
+						"in": "The Great Walrus"
+					}
+				],
+				"points": 18,
+				"movement": 8,
+				"fight": 2,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings",
+					"Frozen Shore"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Stalk Unseen"
+				],
+				"wargear": [
+					"Throwing Weapon",
+					"Hand weapon"
+				],
+				"options": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "options",
+						"name": "White Bear"
+					}
+				]
+			},
+			{
+				"name": "Spearwives",
+				"factions": [
+					"The Free Folk"
+				],
+				"points": 12,
+				"movement": 6,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 4,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [
+					"Spear Mastery"
+				],
+				"wargear": [
+					"Throwing Spear",
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Bow",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
 						"chooseOneKey": "a"
 					}
 				]
@@ -674,18 +1080,13 @@
 		],
 		"gear": [
 			{
-				"name": "Test",
-				"tag": "Passive",
-				"definition": "Blah"
+				"name": "Spear",
+				"type": "weapon"
 			},
 			{
-				"name": "Test 2",
-				"modifiesStats": [
-					{
-						"stat": "strength",
-						"modifier": 1
-					}
-				]
+				"name": "Spear of the Magnar",
+				"type": "weapon",
+				"definition": "This is a Unique spear made of Weirwood. Additionally, a model wielding the Spear of the Magnar may declare a Heroic Combat during each Fight Phase for free."
 			},
 			{
 				"name": "Basic Armour",
@@ -756,6 +1157,11 @@
 				"definition": "24\" Range, 4 Strength"
 			},
 			{
+				"name": "Weirwood Giant's Bow",
+				"type": "bow",
+				"definition": "30\" Range, 6 Strength"
+			},
+			{
 				"name": "Throwing Spears",
 				"type": "throwingWeapon",
 				"definition": "8\" Range, 3 Strength"
@@ -774,14 +1180,93 @@
 				"name": "Banner",
 				"type": "banner",
 				"definition": "A banner provides a single re-roll to friendly models who are involved in a Fight within 3\". Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to their Duel rolls."
+			},
+			{
+        		"name": "White Bear",
+        		"type": "mount",
+				"movement": 8,
+				"fight": 5,
+				"shoot": 6,
+				"strength": 6,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 7,
+				"intelligence": 8,
+				"race": [
+					"Bear"
+				],
+				"faction": [
+					"Wildlings",
+					"Frozen Shore"
+				],
+				"unitType": [
+					"Mount",
+					"Monster"
+				],
+				"baseSize": [
+					"60mm"
+				],
+				"wargear": [
+					"Claws and teeth (hand weapons)"
+				],
+				"keyword": [
+					"Monster",
+					"Cavalry"
+				],
+				"specialRules": [
+					"Monstrous Charge",
+					"Terror",
+					"Feral"
+				]
 			}
 		],
 		"keywords": [
 			{
-				"name": "Test",
+        		"name": "Fearless",
+        		"tag": "Passive",
+        		"definition": "A model with this special rule automatically passes any Courage Test it is required to make."
+      		},
+			{
+        		"name": "Terror",
+        		"tag": "Passive",
+        		"definition": "If a model wishes to Charge a model with this special rule, then it must take a Courage Test at the start of its Move. If the test is passed, the model may Charge as normal. If the test is failed, the model cannot Move that turn, but may otherwise act normally.\n                Sometimes a situation may open up the chance for a model to Charge a model with Terror part way through their Move, such as moving a different model with magic or killing something in the way with a throwing weapon. In such instances, the model only needs to take the Courage Test at the point in which the Terror causing model becomes possible to Charge. If a model making a Jump, Climb or Leap Test finishes within the Control Zone of an enemy with Terror and would normally be able to Charge, they will take their Courage Test after they have made their Jump, Climb or Leap Test.\n                Sometimes, a model may only cause Terror In certain enemies. In these Instances, a keyword will follow Terror in brackets, and only models with that keyword will need to take a Courage Test to Charge the model."
+      		},
+			{
+        		"name": "Stalk Unseen",
+        		"tag": "Passive",
+        		"definition": "An Infantry model with this special rule that is partially concealed from view by a piece of terrain cannot be seen at distances of more than 6\". This means that enemy models cannot target this model with Shooting Attacks, Magical Powers, special rules, or anything else that requires Line of Sight unless they have a completely clear view of this model."
+      		},
+			{
+				"name": "It's Your Bones I'll Be Rattlin' Soon",
 				"tag": "Passive",
-				"definition": "Test"
-			}
+				"definition": "An enemy model within 6\" suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect."
+			},
+			{
+				"name": "More a God than a Man",
+				"tag": "Passive",
+				"definition": "Friendly Thenn warrior models count as having the Fearless special rule."
+			},
+			{
+				"name": "Horrific Visage",
+				"tag": "Active",
+				"definition": "Models with this special rule don't roll To Wound when making Strikes in the same way. Instead, when a model with this special rule makes a Strike, the target counts their Defence value as 10 minus the numerical value of their Courage. So, a model with a Courage of 8+ would treat their Defence as 2 (10-8) when a model with Horrific Visage makes a Strike against them."
+			},
+			{
+				"name": "Furious Charge",
+				"tag": "Active",
+				"definition": "This model gains a bonus of +1 Attacks on a turn in which it Charges."
+			},
+			{
+        		"name": "Feral",
+        		"tag": "Passive",
+        		"definition": "When a White Bear becomes a Separated Mount, it will automatically fail the Courage Test and will flee."
+      		},
+			{
+        		"name": "Spear Mastery",
+        		"tag": "Active",
+        		"definition": "This model may use its throwing spears as a normal spear during the Fight Phase, so long as it hasn't made a Shooting Attack with it in either the preceding Move Phase or Shoot Phase."
+      		}
 		],
 		"armyBonuses": [
 			{
