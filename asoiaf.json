@@ -1216,18 +1216,13 @@
 					"Frozen Shore"
 				],
 				"unitType": [
-					"Mount",
-					"Monster"
+					"Mount"
 				],
 				"baseSize": [
 					"60mm"
 				],
 				"wargear": [
 					"Claws and teeth (hand weapons)"
-				],
-				"keyword": [
-					"Monster",
-					"Cavalry"
 				],
 				"specialRules": [
 					"Monstrous Charge",
