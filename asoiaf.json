@@ -2057,6 +2057,44 @@
 					"Stalk Unseen"
 				],
 				"options": []
+			},
+
+
+
+			{
+				"name": "Ghost",
+				"factions": [],
+				"unavailableSolo": true,
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 10,
+				"fight": 4,
+				"shoot": 6,
+				"strength": 5,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Direwolf"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Infantry",
+					"Warrior",
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"wargear": [
+					"Teeth and claws (hand weapons)"
+				],
+				"options": [],
+				"specialRules": []
 			}
 
 
