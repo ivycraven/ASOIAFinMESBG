@@ -2085,7 +2085,8 @@
 				"unitType": [
 					"Infantry",
 					"Warrior",
-					"Beast"
+					"Beast",
+					"Unique"
 				],
 				"baseSize": [
 					"40mm"
