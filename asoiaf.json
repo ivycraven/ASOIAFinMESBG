@@ -663,7 +663,7 @@
 				"defence": 5,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 4,
+				"courage": 3,
 				"intelligence": 6,
 				"might": 3,
 				"will": 1,
@@ -715,7 +715,7 @@
 				"defence": 6,
 				"attack": 3,
 				"wounds": 3,
-				"courage": 4,
+				"courage": 5,
 				"intelligence": 6,
 				"might": 3,
 				"will": 1,
@@ -765,7 +765,7 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 4,
-				"courage": 4,
+				"courage": 5,
 				"intelligence": 6,
 				"might": 3,
 				"will": 1,
@@ -815,7 +815,7 @@
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
+				"courage": 5,
 				"intelligence": 6,
 				"might": 2,
 				"will": 1,
@@ -865,8 +865,8 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"intelligence": 4,
+				"courage": 5,
+				"intelligence": 5,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
@@ -1117,12 +1117,510 @@
 				],
 				"heroicActions": [],
 				"specialRules": [
-					"And Now My Watch Begins"
+					"It Will Not End Until My Death"
 				],
 				"wargear": [
 					"Heavy Armour",
 					"Longclaw",
 					"Strange Raven"
+				],
+				"options": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Ghost",
+						"quantity": 1,
+						"points": 0
+					}
+				]
+			},
+			{
+				"name": "Jon Snow, Steward",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unavailableWith": [
+					"Jon Snow, 998th Lord Commander"
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"And Now My Watch Begins"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Hand weapon"
+				],
+				"options": [
+					{
+            			"name": "Longclaw",
+            			"points": 30,
+            			"unavailableWith": [
+              				"Jeor Mormont, 997th Lord Commander"
+            			]
+          			},
+					{
+            			"name": "Strange Raven",
+            			"points": 0,
+            			"unavailableWith": [
+              				"Jeor Mormont, 997th Lord Commander"
+            			]
+          			}
+				],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Ghost",
+						"quantity": 1,
+						"points": 0
+					}
+				]
+			},
+			{
+				"name": "Benjen Stark, First Ranger",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unavailableWith": [
+					"Jon Snow, 998th Lord Commander"
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"First Ranger"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Bowen Marsh, First Steward",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"First Steward"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Othell Yarwyck, First Builder",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 2,
+				"wounds": 3,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"First Builder"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Cotter Pyke, Commander of Eastwatch",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 5,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"Commander of Eastwat"
+				],
+				"wargear": [
+					"Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Cotter Pyke, Commander of Eastwatch",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"Watcher of the Bay of Seals"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Ser Denys Mallister, Commander of the Shadow Tower",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Valour"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"Keeper of the Bridge of Skulls"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Ser Alliser Thorne, Master-at-arms",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"Relentless Instructor"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Qhorin Halfhand",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 7,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"The Sword in the Darkness"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Hand weapon"
+				],
+				"options": []
+			},
+			{
+				"name": "Donal Noye",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Fortitude"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 5,
+				"intelligence": 5,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"The Fire that Burns Against the Cold",
+					"Burly"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Two-handed weapon"
 				],
 				"options": []
 			}
