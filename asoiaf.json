@@ -564,6 +564,12 @@
 					"Woodland Creature",
 					"Mountain Dweller"
 				]
+			},
+			{
+				"name": "The Nights Watch",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
 			}
 		],
 		"heroicTiers": [
@@ -619,7 +625,8 @@
 				],
 				"unitType": [
 					"Hero",
-					"Infantry"
+					"Infantry",
+					"Unique"
 				],
 				"baseSize": [
 					"25mm"
@@ -670,7 +677,8 @@
 				],
 				"unitType": [
 					"Hero",
-					"Infantry"
+					"Infantry",
+					"Unique"
 				],
 				"baseSize": [
 					"25mm"
@@ -703,7 +711,7 @@
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
-				"strength": 4,
+				"strength": 5,
 				"defence": 6,
 				"attack": 3,
 				"wounds": 3,
@@ -721,7 +729,8 @@
 				],
 				"unitType": [
 					"Hero",
-					"Infantry"
+					"Infantry",
+					"Unique"
 				],
 				"baseSize": [
 					"25mm"
@@ -752,7 +761,7 @@
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
-				"strength": 4,
+				"strength": 5,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 4,
@@ -770,7 +779,8 @@
 				],
 				"unitType": [
 					"Hero",
-					"Infantry"
+					"Infantry",
+					"Unique"
 				],
 				"baseSize": [
 					"25mm"
@@ -801,7 +811,7 @@
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
-				"strength": 4,
+				"strength": 5,
 				"defence": 5,
 				"attack": 2,
 				"wounds": 2,
@@ -818,7 +828,8 @@
 				],
 				"unitType": [
 					"Hero",
-					"Infantry"
+					"Infantry",
+					"Unique"
 				],
 				"baseSize": [
 					"25mm"
@@ -867,7 +878,8 @@
 				],
 				"unitType": [
 					"Hero",
-					"Infantry"
+					"Infantry",
+					"Unique"
 				],
 				"baseSize": [
 					"25mm"
@@ -915,7 +927,8 @@
 				],
 				"unitType": [
 					"Hero",
-					"Infantry"
+					"Infantry",
+					"Unique"
 				],
 				"baseSize": [
 					"25mm"
@@ -1010,7 +1023,117 @@
 						"chooseOneKey": "a"
 					}
 				]
+			},
+
+
+
+
+
+			{
+				"name": "Jeor Mormont, 997th Lord Commander",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"Night Gathers"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Longclaw",
+					"Strange Raven"
+				],
+				"options": []
+			},
+			{
+				"name": "Jon Snow, 998th Lord Commander",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Hero of Legend"
+					}
+				],
+				"unavailableWith": [
+					"Jeor Mormont, 997th Lord Commander"
+				],
+				"unlimited": false,
+				"points": 0,
+				"movement": 6,
+				"fight": 6,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 6,
+				"attack": 3,
+				"wounds": 3,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 3,
+				"will": 3,
+				"fate": 3,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry",
+					"Unique"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [],
+				"specialRules": [
+					"And Now My Watch Begins"
+				],
+				"wargear": [
+					"Heavy Armour",
+					"Longclaw",
+					"Strange Raven"
+				],
+				"options": []
 			}
+
+
+
+
+
+
+
+
 		],
 		"warriors": [
 			{
@@ -1437,6 +1560,12 @@
 				],
 				"options": []
 			}
+
+
+
+
+
+
 		],
 		"gear": [
 			{
@@ -1447,6 +1576,11 @@
 				"name": "Spear of the Magnar",
 				"type": "weapon",
 				"definition": "This is a Unique spear made of Weirwood. Additionally, a model wielding the Spear of the Magnar may declare a Heroic Combat during each Fight Phase for free."
+			},
+			{
+				"name": "Longclaw",
+				"type": "weapon",
+				"definition": "This is a Unique Master-Forged Valyrian Steel Hand-and-a-half Sword. In the event of a Drawn Combat, Valyrian Steel weapons win the resulting roll-off on a 3+"
 			},
 			{
 				"name": "Basic Armour",
@@ -1545,6 +1679,11 @@
 				"name": "Banner",
 				"type": "banner",
 				"definition": "A banner provides a single re-roll to friendly models who are involved in a Fight within 3\". Any model carrying a banner is encumbered by its weight, and suffers a -1 penalty to their Duel rolls."
+			},
+			{
+				"name": "Strange Raven",
+				"type": "companion",
+				"definition": "Once per game, during the Priority Phase but before the roll for Priority, the owner of the Strange Raven can automatically win the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both with to use it in the same turn, players roll of as normal and both special rules count as being used."
 			},
 			{
         		"name": "White Bear",
@@ -1670,7 +1809,7 @@
 			{
 				"name": "Grey Blur",
 				"tag": "Active",
-				"definition": "Shooting attacks that target this model suffer a -1 penalty to Hit and a -1 penalty to Wound. Strikes made against this model suffer a -1 penalty to Wound"
+				"definition": "Shooting attacks that target this model suffer a -1 penalty to Hit and a -1 penalty to Wound. Strikes made against this model suffer a -1 penalty to Wound."
 			},
 			{
 				"name": "Horrific Visage",
