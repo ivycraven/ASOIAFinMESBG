@@ -1350,8 +1350,8 @@
 					"40mm"
 				],
 				"wargear": [
-          			"Teeth and claws (hand weapons)"
-        		],
+					"Teeth and claws (hand weapons)"
+				],
 				"options": [],
 				"specialRules": []
 			},
@@ -1385,8 +1385,8 @@
 					"40mm"
 				],
 				"wargear": [
-          			"Teeth and claws (hand weapons)"
-        		],
+					"Teeth and claws (hand weapons)"
+				],
 				"specialRules": [
 					"Stalk Unseen",
 					"Grey Blur"	
@@ -1423,8 +1423,8 @@
 					"25mm"
 				],
 				"wargear": [
-          			"Teeth and claws (hand weapons)"
-        		],
+					"Teeth and claws (hand weapons)"
+				],
 				"specialRules": [
 					"Fly",
 					"Stalk Unseen"
