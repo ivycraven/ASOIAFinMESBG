@@ -951,7 +951,10 @@
 						"quantity": 3,
 						"points": 0
 					}
-				]
+				],
+				"increaseMaximumChildren": {
+					"warriors": -6
+				}
 			},
 			{
 				"name": "Giant of the North",
