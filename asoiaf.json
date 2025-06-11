@@ -902,8 +902,8 @@
 				"defence": 4,
 				"attack": 2,
 				"wounds": 2,
-				"courage": 4,
-				"intelligence": 4,
+				"courage": 5,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 1,
@@ -937,22 +937,19 @@
 						"elementPropertyName": "warriors",
 						"name": "Varamyr's Shadowcat",
 						"quantity": 1,
-						"points": 0,
-						"hideFromPrint": true
+						"points": 0
 					},
 					{
 						"elementPropertyName": "warriors",
 						"name": "Varamyr's Eagle",
 						"quantity": 1,
-						"points": 0,
-						"hideFromPrint": true
+						"points": 0
 					},
 					{
 						"elementPropertyName": "warriors",
 						"name": "Varamyr's Wolf",
 						"quantity": 3,
-						"points": 0,
-						"hideFromPrint": true
+						"points": 0
 					}
 				],
 				"increaseMaximumChildren": {
