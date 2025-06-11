@@ -886,6 +886,80 @@
 				"options": []
 			},
 			{
+				"name": "Varamyr Sixskins",
+				"factions": [
+					{
+						"name": "The Free Folk",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"unlimited": false,
+				"points": 160,
+				"movement": 6,
+				"fight": 5,
+				"shoot": 4,
+				"strength": 4,
+				"defence": 4,
+				"attack": 2,
+				"wounds": 2,
+				"courage": 4,
+				"intelligence": 4,
+				"might": 2,
+				"will": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Wildlings"
+				],
+				"unitType": [
+					"Hero",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"heroicActions": [
+					"Heroic March"
+				],
+				"specialRules": [
+					"Master Skinchanger"
+				],
+				"wargear": [
+					"Hand weapon",
+					"Basic Armour",
+					"White Bear"
+				],
+				"options": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Varamyr's Shadowcat",
+						"quantity": 1,
+						"points": 0,
+						"hideFromPrint": true
+					},
+					{
+						"elementPropertyName": "warriors",
+						"name": "Varamyr's Eagle",
+						"quantity": 1,
+						"points": 0,
+						"hideFromPrint": true
+					},
+					{
+						"elementPropertyName": "warriors",
+						"name": "Varamyr's Wolf",
+						"quantity": 3,
+						"points": 0,
+						"hideFromPrint": true
+					}
+				],
+				"increaseMaximumChildren": {
+          			"warriors": -1
+        		}
+			},
+			{
 				"name": "Giant of the North",
 				"factions": [
 					{
@@ -1251,6 +1325,110 @@
 						"chooseOneKey": "a"
 					}
 				]
+			},
+			{
+				"name": "Varamyr's Wolf",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Wolf"
+				],
+				"faction": [
+					"Wildlings"
+				],
+				"unitType": [
+					"Infantry",
+					"Warrior",
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"wargear": [
+          			"Teeth and claws (hand weapons)"
+        		]
+			},
+			{
+				"name": "Varamyr's Shadowcat",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 4,
+				"defence": 4,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Wolf"
+				],
+				"faction": [
+					"Wildlings"
+				],
+				"unitType": [
+					"Infantry",
+					"Warrior",
+					"Beast"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"wargear": [
+          			"Teeth and claws (hand weapons)"
+        		],
+				"specialRules": [
+					"Stalk Unseen",
+					"Grey Blur"	
+				]
+			},
+			{
+				"name": "Varamyr's Eagle",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 12,
+				"fight": 1,
+				"shoot": 6,
+				"strength": 2,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 8,
+				"intelligence": 8,
+				"race": [
+					"Wolf"
+				],
+				"faction": [
+					"Wildlings"
+				],
+				"unitType": [
+					"Infantry",
+					"Warrior",
+					"Beast"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"wargear": [
+          			"Teeth and claws (hand weapons)"
+        		],
+				"specialRules": [
+					"Fly",
+					"Stalk Unseen"
+				]
 			}
 		],
 		"gear": [
@@ -1483,6 +1661,11 @@
 				"definition": "This model gains a bonus of +1 Attacks on a turn in which it Charges."
 			},
 			{
+				"name": "Grey Blur",
+				"tag": "Active",
+				"definition": "Shooting attacks that target this model suffer a -1 penalty to Hit and a -1 penalty to Wound. Strikes made against this model suffer a -1 penalty to Wound"
+			},
+			{
 				"name": "Horrific Visage",
 				"tag": "Active",
 				"definition": "Models with this special rule don't roll To Wound when making Strikes in the same way. Instead, when a model with this special rule makes a Strike, the target counts their Defence value as 10 minus the numerical value of their Courage. So, a model with a Courage of 8+ would treat their Defence as 2 (10-8) when a model with Horrific Visage makes a Strike against them."
@@ -1497,6 +1680,11 @@
         		"tag": "Active",
         		"definition": "This model's Stand Fast is 12\" rather than 6\". Additionally, friendly Wildlings models within 3\" of this model may re-roll To Wound Rolls of a natural 1 when making strikes."
       		},
+			{
+				"name": "Master Skinchanger",
+				"tag": "Active",
+				"definition": "Once per turn, after Priority has been determined, Varamyr may nominate a Varamyr's Pack model and then take an Intelligence Test. If he passes, the nominated model may move half of their movement value, but cannot end this move in engagement range of an enemy model. If he fails, the nominated model must charge an enemy unit this turn. If they cannot, that model suffers a Strength 4 hit at the end of the movement phase."
+			},
 			{
 				"name": "More a God than a Man",
 				"tag": "Passive",
