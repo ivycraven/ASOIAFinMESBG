@@ -951,10 +951,7 @@
 						"quantity": 3,
 						"points": 0
 					}
-				],
-				"increaseMaximumChildren": {
-          			"warriors": -1
-        		}
+				]
 			},
 			{
 				"name": "Giant of the North",
@@ -1326,6 +1323,7 @@
 			{
 				"name": "Varamyr's Wolf",
 				"factions": [],
+				"unavailableSolo": true,
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 10,
@@ -1353,11 +1351,14 @@
 				],
 				"wargear": [
           			"Teeth and claws (hand weapons)"
-        		]
+        		],
+				"options": [],
+				"specialRules": []
 			},
 			{
 				"name": "Varamyr's Shadowcat",
 				"factions": [],
+				"unavailableSolo": true,
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 10,
@@ -1389,11 +1390,13 @@
 				"specialRules": [
 					"Stalk Unseen",
 					"Grey Blur"	
-				]
+				],
+				"options": []
 			},
 			{
 				"name": "Varamyr's Eagle",
 				"factions": [],
+				"unavailableSolo": true,
 				"autoAddOnly": true,
 				"points": 0,
 				"movement": 12,
@@ -1425,7 +1428,8 @@
 				"specialRules": [
 					"Fly",
 					"Stalk Unseen"
-				]
+				],
+				"options": []
 			}
 		],
 		"gear": [
