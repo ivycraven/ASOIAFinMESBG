@@ -1636,13 +1636,67 @@
 				"specialRules": [
 					"Rapid Fire (Bolt Thrower)"
 				],
-				"options": [
+				"options": [],
+				"composition": "A Watch Bolt Thrower is a Small Siege Engine, and is crewed by three Nights Watch Builder Crew, one of which is a Builder Veteran, which use the profile below:"
+			},
+			{
+				"name": "Watch Trebuchet",
+				"factions": [
 					{
-						"name": "Swift Reload",
-						"points": 20
+						"name": "The Nights Watch",
+						"heroicTier": "Minor Hero"
 					}
 				],
-				"composition": "A Watch Bolt Thrower is a Small Siege Engine, and is crewed by three Nights Watch Builder Crew, one of which is a Builder Veteran, which use the profile below:"
+				"unlimited": true,
+				"points": 0,
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 10,
+				"defence": 10,
+				"attack": 0,
+				"wounds": 3,
+				"courage": 0,
+				"might": 0,
+				"will": 0,
+				"fate": 0,
+				"range": [
+					"12\"-96\""
+				],
+				"baseSize": [
+					"120mm oval"
+				],
+				"heroicActions": [],
+				"keywords": [
+					"Siege Engine"
+				],
+				"includes": [
+					{
+						"name": "Nights Watch Builder Veteran",
+						"dataSource": "heroes"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
+				"options": [],
+				"specialRules": [
+					"Arcing Shot",
+					"Static",
+					"Area Effect"
+				],
+				"wargear": [],
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Nights Watch Builder Crew",
+						"quantity": 2,
+						"points": 0,
+						"hideFromPrint": true,
+						"lockedChildren": true
+					}
+				],
+				"composition": "A Watch Trebuchet is a Siege Engine, and is crewed by three Nights Watch Builder Crew, one of which is a Builder Veteran, which use the profile below:"
 			},
 			{
 				"name": "Nights Watch Builder Veteran",
@@ -2625,7 +2679,7 @@
       		},
 			{
         		"name": "Watchers on the Wall",
-        		"definition": "Friendly Nights Watch models that are within their deployment zone, and/or within 6\" of a friendly Siege Weapon, gain a bonus of +1 To Wound when making strikes."
+        		"definition": "Friendly Nights Watch models that are within their deployment zone, and/or within 6\" of a friendly Siege Engine, gain a bonus of +1 To Wound when making strikes."
       		}
 		]
 	}
