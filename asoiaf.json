@@ -1577,8 +1577,109 @@
 					"Two-handed weapon"
 				],
 				"options": []
+			},
+			{
+				"name": "Watch Bolt Thrower",
+				"factions": [
+					{
+						"name": "The Nights Watch",
+						"heroicTier": "Minor Hero"
+					}
+				],
+				"points": 60,
+				"unlimited": true,
+				"range": [
+					"0-36\""
+				],
+				"movement": 0,
+				"fight": 0,
+				"shoot": 0,
+				"strength": 7,
+				"defence": 9,
+				"wounds": 3,
+				"baseSize": [
+					"40mm"
+				],
+				"race": [
+					"Siege Engine"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Small Siege Engine"
+				],
+				"keywords": [
+					"Siege Weapon"
+				],
+				"includes": [
+					{
+						"name": "Nights Watch Builder Veteran",
+						"dataSource": "heroes"
+					}
+				],
+				"increaseMaximumChildren": {
+					"warriors": -4
+				},
+				"requiredChildren": [
+					{
+						"elementPropertyName": "warriors",
+						"name": "Nights Watch Builder Crew",
+						"quantity": 2,
+						"points": 0,
+						"hideFromPrint": true,
+						"lockedChildren": true
+					}
+				],
+				"specialRules": [
+					"Rapid Fire (Bolt Thrower)"
+				],
+				"options": [
+					{
+						"name": "Swift Reload",
+						"points": 20
+					}
+				],
+				"composition": "A Watch Bolt Thrower is a Small Siege Engine, and is crewed by three Nights Watch Builder Crew, one of which is a Builder Veteran, which use the profile below:"
+			},
+			{
+				"name": "Nights Watch Builder Veteran",
+				"factions": [],
+				"autoAddOnly": true,
+				"unavailableSolo": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"will": 1,
+				"might": 1,
+				"fate": 1,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Infantry",
+					"Hero"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+					"Heavy armour",
+					"Hand weapon"
+				]
 			}
-
 
 
 
@@ -2050,12 +2151,186 @@
 				],
 				"options": [],
 				"specialRules": []
+			},
+			{
+				"name": "Sworn Brothers",
+				"factions": [
+					"The Nights Watch"
+				],
+				"points": 0,
+				"movement": 6,
+				"fight": 2,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Hand weapon"
+				],
+				"options": [
+					{
+						"name": "Watch Veterans",
+						"points": 1,
+						"availableIn": [
+							"Jeor Mormont, 997th Lord Commander",
+							"Jon Snow, 998th Lord Commander"
+						]
+					},
+					{
+						"name": "Shield",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Spear",
+						"points": 1,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Spear & Shield",
+						"points": 2,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Crossbow",
+						"points": 2,
+						"chooseOneKey": "a"
+					},
+					{
+						"name": "Banner",
+						"points": 25,
+						"chooseOneKey": "a"
+					}
+				]
+			},
+			{
+				"name": "Ranger of the Watch",
+				"factions": [
+					"The Nights Watch"
+				],
+				"points": 0,
+				"movement": 6,
+				"fight": 2,
+				"shoot": 3,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Hand weapon",
+					"Bow"
+				],
+				"options": [
+					{
+						"name": "Horse",
+						"points": 5
+					}
+				]
+			},
+			{
+				"name": "Nights Watch Builder Crew",
+				"factions": [],
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 3,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 5,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Gondor"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"options": [],
+				"specialRules": [],
+				"wargear": [
+				"Heavy Armour",
+				"Hand weapon"
+				]
+			},
+
+
+
+			{
+				"name": "DEFAULT",
+				"factions": [],
+				"unavailableSolo": true,
+				"autoAddOnly": true,
+				"points": 0,
+				"movement": 6,
+				"fight": 2,
+				"shoot": 4,
+				"strength": 3,
+				"defence": 3,
+				"attack": 1,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"race": [
+					"Man"
+				],
+				"faction": [
+					"Default"
+				],
+				"unitType": [
+					"Warrior",
+					"Infantry"
+				],
+				"baseSize": [
+					"25mm"
+				],
+				"specialRules": [],
+				"wargear": [
+					"Hand weapon"
+				],
+				"options": []
 			}
-
-
-
-
-
 
 		],
 		"gear": [
