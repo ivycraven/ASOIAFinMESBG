@@ -572,6 +572,84 @@
 					"Watchers on the Wall"
 				],
 				"specialRules": []
+			},
+			{
+				"name": "The North",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "The Riverlands",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "The Vale",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "The Crown and the Westerlands",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "The Iron Islands",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "The Reach",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "The Stormlands",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "Dragonstone",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "Dorne",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "Host of Aegon VI Targaryen",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "Mother of Dragons",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "Kraken's Fleet",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
+			},
+			{
+				"name": "The Great Grass Sea",
+				"alignment": "War of the Five Kings",
+				"armyBonuses": [],
+				"specialRules": []
 			}
 		],
 		"heroicTiers": [
