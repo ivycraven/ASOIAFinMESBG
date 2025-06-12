@@ -604,7 +604,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 140,
+				"points": 0,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 4,
@@ -655,7 +655,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 100,
+				"points": 0,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -707,7 +707,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 90,
+				"points": 0,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -757,7 +757,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 80,
+				"points": 0,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -807,7 +807,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 75,
+				"points": 0,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -857,7 +857,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 80,
+				"points": 0,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
@@ -906,7 +906,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 160,
+				"points": 0,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -978,7 +978,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 110,
+				"points": 0,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 5,
@@ -1593,7 +1593,7 @@
 				"factions": [
 					"The Free Folk"
 				],
-				"points": 8,
+				"points": 0,
 				"movement": 6,
 				"fight": 2,
 				"shoot": 4,
@@ -1653,7 +1653,7 @@
 						]
 					}
 				],
-				"points": 14,
+				"points": 0,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -1702,7 +1702,7 @@
 						]
 					}
 				],
-				"points": 11,
+				"points": 0,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -1762,7 +1762,7 @@
 						]
 					}
 				],
-				"points": 11,
+				"points": 0,
 				"movement": 8,
 				"fight": 2,
 				"shoot": 4,
@@ -1816,7 +1816,7 @@
 						]
 					}
 				],
-				"points": 18,
+				"points": 0,
 				"movement": 8,
 				"fight": 2,
 				"shoot": 4,
@@ -1855,7 +1855,7 @@
 				"factions": [
 					"The Free Folk"
 				],
-				"points": 11,
+				"points": 0,
 				"movement": 6,
 				"fight": 2,
 				"shoot": 3,
