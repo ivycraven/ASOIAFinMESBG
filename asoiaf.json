@@ -684,7 +684,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 130,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 4,
@@ -735,7 +735,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 100,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -744,7 +744,7 @@
 				"attack": 3,
 				"wounds": 3,
 				"courage": 3,
-				"intelligence": 6,
+				"intelligence": 7,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
@@ -787,7 +787,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 100,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -796,7 +796,7 @@
 				"attack": 3,
 				"wounds": 3,
 				"courage": 5,
-				"intelligence": 6,
+				"intelligence": 7,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
@@ -837,7 +837,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 90,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -846,7 +846,7 @@
 				"attack": 2,
 				"wounds": 4,
 				"courage": 5,
-				"intelligence": 6,
+				"intelligence": 7,
 				"might": 3,
 				"will": 1,
 				"fate": 1,
@@ -887,7 +887,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 80,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -896,7 +896,7 @@
 				"attack": 2,
 				"wounds": 2,
 				"courage": 5,
-				"intelligence": 6,
+				"intelligence": 7,
 				"might": 2,
 				"will": 1,
 				"fate": 2,
@@ -937,7 +937,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 65,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 3,
@@ -986,7 +986,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 90,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -1058,7 +1058,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 105,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 5,
@@ -1118,7 +1118,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 135,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -1168,7 +1168,7 @@
 					"Jeor Mormont, 997th Lord Commander"
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 160,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -1226,7 +1226,7 @@
 					"Jon Snow, 998th Lord Commander"
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 135,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -1264,7 +1264,7 @@
 				"options": [
 					{
             			"name": "Longclaw",
-            			"points": 30,
+            			"points": 20,
             			"unavailableWith": [
               				"Jeor Mormont, 997th Lord Commander"
             			]
@@ -1298,7 +1298,7 @@
 					"Jon Snow, 998th Lord Commander"
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 120,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 4,
@@ -1344,7 +1344,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 70,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -1390,7 +1390,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 75,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -1436,7 +1436,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 80,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -1482,7 +1482,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 75,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -1528,7 +1528,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 75,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -1574,7 +1574,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 80,
 				"movement": 6,
 				"fight": 7,
 				"shoot": 4,
@@ -1620,7 +1620,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 0,
+				"points": 70,
 				"movement": 6,
 				"fight": 5,
 				"shoot": 4,
@@ -1666,7 +1666,7 @@
 						"heroicTier": "Minor Hero"
 					}
 				],
-				"points": 0,
+				"points": 60,
 				"unlimited": true,
 				"range": [
 					"0-36\""
@@ -1726,7 +1726,7 @@
 					}
 				],
 				"unlimited": true,
-				"points": 0,
+				"points": 100,
 				"movement": 0,
 				"fight": 0,
 				"shoot": 0,
@@ -1828,7 +1828,7 @@
 				"factions": [
 					"The Free Folk"
 				],
-				"points": 0,
+				"points": 5,
 				"movement": 6,
 				"fight": 2,
 				"shoot": 4,
@@ -1888,7 +1888,7 @@
 						]
 					}
 				],
-				"points": 0,
+				"points": 10,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -1937,7 +1937,7 @@
 						]
 					}
 				],
-				"points": 0,
+				"points": 10,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -1997,7 +1997,7 @@
 						]
 					}
 				],
-				"points": 0,
+				"points": 6,
 				"movement": 8,
 				"fight": 2,
 				"shoot": 4,
@@ -2051,7 +2051,7 @@
 						]
 					}
 				],
-				"points": 0,
+				"points": 16,
 				"movement": 8,
 				"fight": 2,
 				"shoot": 4,
@@ -2090,7 +2090,7 @@
 				"factions": [
 					"The Free Folk"
 				],
-				"points": 0,
+				"points": 8,
 				"movement": 6,
 				"fight": 2,
 				"shoot": 3,
@@ -2291,7 +2291,7 @@
 				"factions": [
 					"The Nights Watch"
 				],
-				"points": 0,
+				"points": 8,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -2360,7 +2360,7 @@
 				"factions": [
 					"The Nights Watch"
 				],
-				"points": 0,
+				"points": 10,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 3,
