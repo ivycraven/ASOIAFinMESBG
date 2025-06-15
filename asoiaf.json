@@ -787,7 +787,7 @@
 					}
 				],
 				"unlimited": false,
-				"points": 100,
+				"points": 115,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -1389,7 +1389,7 @@
 				],
 				"heroicActions": [],
 				"specialRules": [
-					"First Steward"
+					"Organising the Watch"
 				],
 				"wargear": [
 					"Armour",
@@ -1441,7 +1441,12 @@
 					"Armour",
 					"Hand weapon"
 				],
-				"options": []
+				"options": [
+					{
+            			"name": "Watch Bolt Thrower",
+            			"points": 40
+          			}
+				]
 			},
 			{
 				"name": "Cotter Pyke, Commander of Eastwatch",
@@ -2709,6 +2714,22 @@
 				"specialRules": [
 					"Woodland Creature"
 				]
+			},
+			{
+				"name": "Watch Bolt Thrower",
+				"type": "siegeEngine",
+				"strength": 7,
+				"defence": 9,
+				"wounds": 3,
+				"range": [
+					"0\"-36\""
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"specialRules": [
+					"Direct Shot"
+				]
 			}
 		],
 		"keywords": [
@@ -2800,8 +2821,12 @@
 			{
 				"name": "Chief of the Frozen Shore",
 				"tag": "Passive",
-				"definition": "Placeholder"
+				"definition": "While The Great Walrus is on the battlefield, enemy models that suffer one or more Strikes from a Frozen Shore model and are not slain must take a Courage Test. If they fail, they must move their full Move Value directly away from the model that Struck them."
 			},
+			{
+        		"name": "Direct Shot",
+        		"definition": "A Siege Engine that Shoots by Direct Shot will need Line of Sight to the initial target. Additionally, if the shot scatters onto another target, the Siege Engine will need to have Line of Sight to this target in order for them to be selected as the actual target. In both of these instances, this Line of Sight is drawn from the firing point of the Siege Engine, so the tip of a ballista or siege bow for example.\n                After determining the actual target, a Siege Engine with Direct Shot will make In The Way Tests in the same way as any other Shooting Attack."
+      		},
 			{
         		"name": "Experienced Huntress",
         		"tag": "Active",
@@ -2815,15 +2840,10 @@
 			{
 				"name": "First Builder",
 				"tag": "Passive",
-				"definition": "Placeholder"
+				"definition": "If this model is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, this model may move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, this model gains a bonus of +1 to any rolls on the Scatter Table."
 			},
 			{
 				"name": "First Ranger",
-				"tag": "Passive",
-				"definition": "Placeholder"
-			},
-			{
-				"name": "First Steward",
 				"tag": "Passive",
 				"definition": "Placeholder"
 			},
@@ -2875,12 +2895,17 @@
 			{
 				"name": "More a God than a Man",
 				"tag": "Passive",
-				"definition": "Friendly Thenn warrior models count as having the Fearless special rule."
+				"definition": "Friendly Thenn warrior models within 6\" of Styr pass all Courage Tests they are required to make."
+			},
+			{
+				"name": "Organising the Watch",
+				"tag": "Passive",
+				"definition": "During each Priority Phase, after Priority has been determined, Bowen Marsh can spend a Will Point. If he does so, choose one of the orders below – the effects last until the End Phase of the turn. \n                • We shall live and die at our posts! – Friendly Nights Watch models within 6\" of Bowen Marsh pass all Courage Tests they are required to make. \n                • For the Watch! – Whenever a friendly Nights Watch model within 6\" of Bowen Marsh suffers a Wound, roll a D6. On a 5+ the Wound is ignored. \n                • Watch, March! – Friendly Nights Watch models that start their Move within 6\" of Bowen Marsh will not be slowed by Difficult Terrain (with the exception of water features)."
 			},
 			{
 				"name": "Relentless Instructor",
 				"tag": "Passive",
-				"definition": "Placeholder"
+				"definition": "Friendly Nights Watch warrior models with 3\" of Ser Alliser Thorne gain a bonus of +1 to their Fight Value"
 			},
 			{
 				"name": "The Fire that Burns Against the Cold",
