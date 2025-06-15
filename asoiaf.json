@@ -870,7 +870,8 @@
 					"Heroic Defence"
 				],
 				"specialRules": [
-					"Burly"
+					"Burly",
+					"Chief of the Frozen Shore"
 				],
 				"wargear": [
 					"Two-handed weapon",
@@ -1147,14 +1148,19 @@
 				],
 				"heroicActions": [],
 				"specialRules": [
-					"Night Gathers"
+					"The Old Bear"
 				],
 				"wargear": [
 					"Heavy Armour",
 					"Longclaw",
 					"Strange Raven"
 				],
-				"options": []
+				"options": [
+					{
+						"name": "Watch Ranger Horse",
+						"points": 20
+					}
+				]
 			},
 			{
 				"name": "Jon Snow, 998th Lord Commander",
@@ -1204,7 +1210,12 @@
 					"Longclaw",
 					"Strange Raven"
 				],
-				"options": [],
+				"options": [
+					{
+						"name": "Watch Ranger Horse",
+						"points": 20
+					}
+				],
 				"requiredChildren": [
 					{
 						"elementPropertyName": "warriors",
@@ -1333,7 +1344,12 @@
 					"Heavy Armour",
 					"Hand weapon"
 				],
-				"options": []
+				"options": [
+					{
+						"name": "Watch Ranger Horse",
+						"points": 20
+					}
+				]
 			},
 			{
 				"name": "Bowen Marsh, First Steward",
@@ -1511,7 +1527,8 @@
 				],
 				"heroicActions": [],
 				"specialRules": [
-					"Keeper of the Bridge of Skulls"
+					"Keeper of the Bridge of Skulls",
+					"Hatred (Ironborn)"
 				],
 				"wargear": [
 					"Heavy Armour",
@@ -1687,7 +1704,7 @@
 					"Nights Watch"
 				],
 				"unitType": [
-					"Small Siege Engine"
+					"Siege Engine"
 				],
 				"keywords": [
 					"Siege Weapon"
@@ -1743,6 +1760,15 @@
 				],
 				"baseSize": [
 					"120mm oval"
+				],
+				"race": [
+					"Siege Engine"
+				],
+				"faction": [
+					"Nights Watch"
+				],
+				"unitType": [
+					"Siege Engine"
 				],
 				"heroicActions": [],
 				"keywords": [
@@ -2291,7 +2317,7 @@
 				"factions": [
 					"The Nights Watch"
 				],
-				"points": 8,
+				"points": 9,
 				"movement": 6,
 				"fight": 3,
 				"shoot": 4,
@@ -2360,7 +2386,7 @@
 				"factions": [
 					"The Nights Watch"
 				],
-				"points": 10,
+				"points": 11,
 				"movement": 6,
 				"fight": 4,
 				"shoot": 3,
@@ -2393,7 +2419,16 @@
 				],
 				"options": [
 					{
-						"name": "Horse",
+						"name": "Watch Veterans",
+						"points": 1,
+						"availableIn": [
+							"Jeor Mormont, 997th Lord Commander",
+							"Jon Snow, 998th Lord Commander",
+							"Benjen Stark, First Ranger"
+						]
+					},
+					{
+						"name": "Watch Ranger Horse",
 						"points": 5
 					}
 				]
@@ -2594,6 +2629,28 @@
 				"definition": "Once per game, during the Priority Phase but before the roll for Priority, the owner of the Strange Raven can automatically win the roll to choose who has Priority for that turn. If both sides have a special rule allowing them to do this and both with to use it in the same turn, players roll of as normal and both special rules count as being used."
 			},
 			{
+				"name": "Horse",
+				"type": "mount",
+				"race": [
+					"Horse"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 4,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7
+			},
+			{
         		"name": "White Bear",
         		"type": "mount",
 				"movement": 8,
@@ -2626,9 +2683,40 @@
 					"Terror",
 					"Feral"
 				]
+			},
+			{
+				"name": "Watch Ranger Horse",
+				"type": "mount",
+				"race": [
+					"Horse"
+				],
+				"unitType": [
+					"Mount"
+				],
+				"baseSize": [
+					"40mm"
+				],
+				"movement": 10,
+				"fight": 2,
+				"shoot": 6,
+				"strength": 3,
+				"defence": 4,
+				"attack": 0,
+				"wounds": 1,
+				"courage": 7,
+				"intelligence": 7,
+				"definition": "This is a horse that also has the Woodland Creature special rule.",
+				"specialRules": [
+					"Woodland Creature"
+				]
 			}
 		],
 		"keywords": [
+			{
+				"name": "Burly",
+				"tag": "Passive",
+				"definition": "A model with this special rule does not suffer the -1 penalty to the Duel Roll for using a two-handed weapon. Additionally, a model with this special rule can still Move its full Move Value whilst carrying a Heavy Object."
+			},
 			{
 				"name": "Dominant (2)",
 				"tag": "Passive",
@@ -2663,6 +2751,11 @@
         		"name": "Fearless",
         		"tag": "Passive",
         		"definition": "A model with this special rule automatically passes any Courage Test it is required to make."
+      		},
+			{
+        		"name": "Hatred (Ironborn)",
+        		"tag": "Passive",
+        		"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
       		},
 			{
         		"name": "Master of Battle (4+)",
@@ -2700,6 +2793,16 @@
 				"definition": "A model with this special rule may Move through woods and forests that are classed as Difficult Terrain as if they are Open Ground. If a Cavalry model has this special rule, but their Mount does not, then this rule does not apply to the Mount. If a Mount has this special rule, then they will still gain their Cavalry Charge bonuses when they Charge, even if the rider does not have this special rule."
 			},
 			{
+				"name": "And Now My Watch Begins",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
+			{
+				"name": "Chief of the Frozen Shore",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
+			{
         		"name": "Experienced Huntress",
         		"tag": "Active",
         		"definition": "Each turn, This Hero gains a free Might Point that can only be spent during a shooting attack on either a to Hit Roll, a To Wound Roll, or an In The Way Test. If this free Might Point is not spent by the end of the turn, it is lost."
@@ -2709,6 +2812,21 @@
         		"tag": "Passive",
         		"definition": "When a White Bear becomes a Separated Mount, it will automatically fail the Courage Test and will flee."
       		},
+			{
+				"name": "First Builder",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
+			{
+				"name": "First Ranger",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
+			{
+				"name": "First Steward",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
 			{
 				"name": "Furious Charge",
 				"tag": "Active",
@@ -2725,10 +2843,25 @@
 				"definition": "Models with this special rule don't roll To Wound when making Strikes in the same way. Instead, when a model with this special rule makes a Strike, the target counts their Defence value as 10 minus the numerical value of their Courage. So, a model with a Courage of 8+ would treat their Defence as 2 (10-8) when a model with Horrific Visage makes a Strike against them."
 			},
 			{
+				"name": "It's Your Bones I'll Be Rattlin' Soon",
+				"tag": "Passive",
+				"definition": "An enemy model within 6\" suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect."
+			},
+			{
+				"name": "It Will Not End Until My Death",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
+			{
         		"name": "Joramun's Horn",
         		"tag": "Active",
         		"definition": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Tormund can unleash a fearsome blow of Joramun's Horn. Until the End Phase of the turn, enemy models within 24\" of Tormund suffer a -1 penalty to any Courage Test they are required to make."
       		},
+			{
+				"name": "Keeper of the Bridge of Skulls",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
 			{
         		"name": "King Beyond The Wall",
         		"tag": "Active",
@@ -2745,9 +2878,29 @@
 				"definition": "Friendly Thenn warrior models count as having the Fearless special rule."
 			},
 			{
-				"name": "It's Your Bones I'll Be Rattlin' Soon",
+				"name": "Relentless Instructor",
 				"tag": "Passive",
-				"definition": "An enemy model within 6\" suffers a -1 penalty to any Courage Tests it is required to make. This is not cumulative with other special rules that also provide a similar effect."
+				"definition": "Placeholder"
+			},
+			{
+				"name": "The Fire that Burns Against the Cold",
+				"tag": "Passive",
+				"definition": "Enemy Monster models Engaged in Combat with Donal Noye cannot use Brutal Power Attacks."
+			},
+			{
+				"name": "The Old Bear",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
+			{
+				"name": "The Sword in the Darkness",
+				"tag": "Passive",
+				"definition": "Placeholder"
+			},
+			{
+				"name": "Watcher of the Bay of Seals",
+				"tag": "Passive",
+				"definition": "Placeholder"
 			}
 		],
 		"armyBonuses": [
