@@ -2840,7 +2840,7 @@
 			{
 				"name": "First Builder",
 				"tag": "Passive",
-				"definition": "If this model is upgraded to take a Windlance, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, this model may move further than 6\" away from the Windlance at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Windlance that targets a Monster model, this model gains a bonus of +1 to any rolls on the Scatter Table."
+				"definition": "If this model is upgraded to take a Watch Bolt Thrower, then he counts as the only crew for the Siege Engine. However, unlike normal Siege Engine crew, this model may move further than 6\" away from the Watch Bolt Thrower at any point and may rotate it without suffering the -1 penalty to his rolls To Hit. Additionally, when making a shooting attack with the Watch Bolt Thrower that targets a Monster model, this model gains a bonus of +1 to any rolls on the Scatter Table."
 			},
 			{
 				"name": "First Ranger",
