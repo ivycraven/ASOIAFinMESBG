@@ -919,8 +919,7 @@
 					"25mm"
 				],
 				"heroicActions": [
-					"Heroic Strength",
-					"Heroic Strike"
+					"Heroic Strength"
 				],
 				"specialRules": [
 					"Joramun's Horn",
@@ -1149,7 +1148,11 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Defence",
+					"Heroic Resolve"
+				],
 				"specialRules": [
 					"The Old Bear"
 				],
@@ -1204,7 +1207,11 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic Challenge",
+					"Heroic Resolve"
+				],
 				"specialRules": [
 					"It Will Not End Until My Death"
 				],
@@ -1267,7 +1274,9 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic Strike"
+				],
 				"specialRules": [
 					"And Now My Watch Begins"
 				],
@@ -1343,7 +1352,10 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic Strike",
+					"Heroic March"
+				],
 				"specialRules": [
 					"First Ranger",
 					"Woodland Creature"
@@ -1395,7 +1407,10 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Defence"
+				],
 				"specialRules": [
 					"Organising the Watch"
 				],
@@ -1441,7 +1456,10 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic March",
+					"Heroic Accuracy"
+				],
 				"specialRules": [
 					"First Builder"
 				],
@@ -1492,7 +1510,9 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic Strike"
+				],
 				"specialRules": [
 					"Relentless Instructor"
 				],
@@ -1538,7 +1558,9 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic Challenge"
+				],
 				"specialRules": [
 					"The Sword in the Darkness"
 				],
@@ -1584,7 +1606,9 @@
 				"baseSize": [
 					"25mm"
 				],
-				"heroicActions": [],
+				"heroicActions": [
+					"Heroic Strength"
+				],
 				"specialRules": [
 					"The Fire that Burns Against the Cold",
 					"Burly"
