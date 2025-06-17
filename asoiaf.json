@@ -1288,7 +1288,11 @@
             			"unavailableWith": [
               				"Jeor Mormont, 997th Lord Commander"
             			]
-          			}
+          			},
+					{
+						"name": "Watch Ranger Horse",
+						"points": 20
+					}
 				],
 				"requiredChildren": [
 					{
@@ -2681,12 +2685,7 @@
         		"name": "Fearless",
         		"tag": "Passive",
         		"definition": "A model with this special rule automatically passes any Courage Test it is required to make."
-      		},
-			{
-        		"name": "Hatred (Ironborn)",
-        		"tag": "Passive",
-        		"definition": "A model with this special rule gains a bonus of +1 To Wound when making Strikes against a model with the same keyword as the one shown in brackets. So, a model with the Hatred (Man) special rule would gain a bonus of +1 To Wound when making Strikes against Man models."
-      		},
+			},
 			{
         		"name": "Master of Battle (4+)",
         		"tag": "Active",
