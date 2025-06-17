@@ -1179,7 +1179,7 @@
 				"unlimited": false,
 				"points": 185,
 				"movement": 6,
-				"fight": 6,
+				"fight": 7,
 				"shoot": 4,
 				"strength": 4,
 				"defence": 6,
@@ -2643,6 +2643,11 @@
 				"specialRules": [
 					"Direct Shot"
 				]
+			},
+			{
+				"name": "Watch Veterans",
+				"type": "upgrade",
+				"definition": "Watch Veterans may re-roll To Wound rolls of a natural 1 when making Strikes."
 			}
 		],
 		"keywords": [
