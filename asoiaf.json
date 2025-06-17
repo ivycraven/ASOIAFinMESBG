@@ -1705,7 +1705,6 @@
 				"options": [],
 				"specialRules": [
 					"Arcing Shot",
-					"Static",
 					"Area Effect"
 				],
 				"wargear": [],
@@ -2647,6 +2646,14 @@
 			}
 		],
 		"keywords": [
+			{
+        		"name": "Arcing Shot",
+        		"definition": "A Siege Engine that Shoots by Arcing Shot does not need Line of Sight to its target, or to a model its shot would scatter on to, so long as another friendly model has Line of Sight to the initial target. After determining the actual target, a Siege Engine with Arcing Shot does not make In The Way Tests for intervening models and terrain (the shot goes over them). However, anything that is clearly taller than the actual target and would be above the actual target when the shot comes down will incur an In The Way Test. This could include the likes of trees, ledges, or rocks that jut out from cliff faces; a degree of common sense will be needed here - a whole tree would provide this In The Way, but a single branch would not!\n                This is also the case for when a Siege Engine with Arcing Shot hits a War Beast with a Howdah, as the Howdah is above the War Beast and so will provide an In The Way Test"
+      		},
+			{
+				"name": "Area Effect",
+				"definition": "After rolling To Hit against the actual target, if the actual target was a Battlefield Target then all other models within 2\" of the actual target suffer a Strength 5 hit and, if they survive, will be knocked prone."
+      		},
 			{
 				"name": "Burly",
 				"tag": "Passive",
