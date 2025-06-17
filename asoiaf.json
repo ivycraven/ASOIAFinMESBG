@@ -558,6 +558,7 @@
 				"name": "The Free Folk",
 				"alignment": "War of the Five Kings",
 				"armyBonuses": [
+					"Followers of Strength",
 					"Masters of Terrain",
 					"Take the Wall!"
 				],
@@ -1239,7 +1240,7 @@
 					"Jon Snow, 998th Lord Commander"
 				],
 				"unlimited": false,
-				"points": 145,
+				"points": 135,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -2788,7 +2789,7 @@
 			{
         		"name": "King Beyond The Wall",
         		"tag": "Active",
-        		"definition": "This model's Stand Fast is 12\" rather than 6\". Additionally, friendly Wildlings models within 3\" of this model may re-roll To Wound Rolls of a natural 1 when making strikes."
+        		"definition": "This model's Stand Fast is 12\" rather than 6\". The range of the Followers of Strength rule is considered to be 6\" if Mance Rayder is your General.  Additionally, friendly Wildlings models within 3\" of this model may re-roll To Wound Rolls of a natural 1 when making strikes."
       		},
 			{
 				"name": "Master Skinchanger",
@@ -2835,6 +2836,10 @@
 				"name": "Take the Wall!",
 				"definition": "Once per game, in Scenarios that use Objective Markers, your General can use this special rule during their Move to choose an Objective Marker in base contact. So long as your general is alive and on the battlefield, friendly models within range of the chosen Objective Marker gain the Dominant (2) special rule."
 			},
+			{
+        		"name": "Followers of Strength",
+        		"definition": "Friendly models treat your General as a Banner with a range of 3\". So long as they are still alive, your General will count as a banner for the purpose of Victory Points in Scenarios that award Victory Points for having a banner left alive."
+      		},
 			{
         		"name": "Watchers on the Wall",
         		"definition": "Friendly Nights Watch models that are within their deployment zone, and/or within 6\" of a friendly Siege Engine, gain a bonus of +1 To Wound when making strikes."
