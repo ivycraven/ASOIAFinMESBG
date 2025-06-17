@@ -2647,6 +2647,7 @@
 			{
 				"name": "Watch Veterans",
 				"type": "upgrade",
+				"modifiesStats": [],
 				"definition": "Watch Veterans may re-roll To Wound rolls of a natural 1 when making Strikes."
 			}
 		],
