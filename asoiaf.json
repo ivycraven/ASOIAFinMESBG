@@ -1648,7 +1648,7 @@
 					}
 				],
 				"specialRules": [
-					"Rapid Fire (Bolt Thrower)"
+					"Direct Shot"
 				],
 				"options": [],
 				"composition": "A Watch Bolt Thrower is a Small Siege Engine, and is crewed by three Nights Watch Builder Crew, one of which is a Builder Veteran, which use the profile below:"
@@ -2659,6 +2659,10 @@
 				"tag": "Passive",
 				"definition": "A model with this special rule does not suffer the -1 penalty to the Duel Roll for using a two-handed weapon. Additionally, a model with this special rule can still Move its full Move Value whilst carrying a Heavy Object."
 			},
+			{
+        		"name": "Direct Shot",
+        		"definition": "A Siege Engine that Shoots by Direct Shot will need Line of Sight to the initial target. Additionally, if the shot scatters onto another target, the Siege Engine will need to have Line of Sight to this target in order for them to be selected as the actual target. In both of these instances, this Line of Sight is drawn from the firing point of the Siege Engine, so the tip of a ballista or siege bow for example.\n                After determining the actual target, a Siege Engine with Direct Shot will make In The Way Tests in the same way as any other Shooting Attack."
+      		},
 			{
 				"name": "Dominant (2)",
 				"tag": "Passive",
