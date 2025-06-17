@@ -558,11 +558,13 @@
 				"name": "The Free Folk",
 				"alignment": "War of the Five Kings",
 				"armyBonuses": [
-					"Masters of Terrain"
+					"Masters of Terrain",
+					"Take the Wall!"
 				],
 				"specialRules": [
 					"Woodland Creature",
-					"Mountain Dweller"
+					"Mountain Dweller",
+					"Dominant (2)"
 				]
 			},
 			{
@@ -1174,7 +1176,7 @@
 					"Jeor Mormont, 997th Lord Commander"
 				],
 				"unlimited": false,
-				"points": 160,
+				"points": 185,
 				"movement": 6,
 				"fight": 6,
 				"shoot": 4,
@@ -1447,99 +1449,6 @@
             			"points": 40
           			}
 				]
-			},
-			{
-				"name": "Cotter Pyke, Commander of Eastwatch",
-				"factions": [
-					{
-						"name": "The Nights Watch",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"unlimited": false,
-				"points": 80,
-				"movement": 6,
-				"fight": 5,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 3,
-				"wounds": 2,
-				"courage": 5,
-				"intelligence": 5,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"race": [
-					"Man"
-				],
-				"faction": [
-					"Nights Watch"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"baseSize": [
-					"25mm"
-				],
-				"heroicActions": [],
-				"specialRules": [
-					"Watcher of the Bay of Seals"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Hand weapon"
-				],
-				"options": []
-			},
-			{
-				"name": "Ser Denys Mallister, Commander of the Shadow Tower",
-				"factions": [
-					{
-						"name": "The Nights Watch",
-						"heroicTier": "Hero of Valour"
-					}
-				],
-				"unlimited": false,
-				"points": 75,
-				"movement": 6,
-				"fight": 6,
-				"shoot": 4,
-				"strength": 4,
-				"defence": 6,
-				"attack": 2,
-				"wounds": 2,
-				"courage": 5,
-				"intelligence": 5,
-				"might": 2,
-				"will": 1,
-				"fate": 1,
-				"race": [
-					"Man"
-				],
-				"faction": [
-					"Nights Watch"
-				],
-				"unitType": [
-					"Hero",
-					"Infantry",
-					"Unique"
-				],
-				"baseSize": [
-					"25mm"
-				],
-				"heroicActions": [],
-				"specialRules": [
-					"Keeper of the Bridge of Skulls",
-					"Hatred (Ironborn)"
-				],
-				"wargear": [
-					"Heavy Armour",
-					"Hand weapon"
-				],
-				"options": []
 			},
 			{
 				"name": "Ser Alliser Thorne, Master-at-arms",
@@ -2816,7 +2725,7 @@
 			{
 				"name": "And Now My Watch Begins",
 				"tag": "Passive",
-				"definition": "Placeholder"
+				"definition": "In a turn in which he Charges, Jon Snow can declare a Heroic Combat for free that turn."
 			},
 			{
 				"name": "Chief of the Frozen Shore",
@@ -2845,7 +2754,7 @@
 			{
 				"name": "First Ranger",
 				"tag": "Passive",
-				"definition": "Placeholder"
+				"definition": "Benjen Stark's warband can pick any dice value without rolling for any scenarios that roll for deployment. Should Benjen Stark's Army be Broken, then from that point onwards Benjen Stark may re-roll any failed To Wound rolls when making Strikes. "
 			},
 			{
 				"name": "Furious Charge",
@@ -2870,18 +2779,13 @@
 			{
 				"name": "It Will Not End Until My Death",
 				"tag": "Passive",
-				"definition": "Placeholder"
+				"definition": "A model with this special gains a free Might Point at the start of each turn (even if their store of Might is full). If this free Might Point has not been spent by the end of the turn, it is lost."
 			},
 			{
         		"name": "Joramun's Horn",
         		"tag": "Active",
         		"definition": "This is a Unique war horn. Additionally, once per game at the start of any Move Phase, Tormund can unleash a fearsome blow of Joramun's Horn. Until the End Phase of the turn, enemy models within 24\" of Tormund suffer a -1 penalty to any Courage Test they are required to make."
       		},
-			{
-				"name": "Keeper of the Bridge of Skulls",
-				"tag": "Passive",
-				"definition": "Placeholder"
-			},
 			{
         		"name": "King Beyond The Wall",
         		"tag": "Active",
@@ -2915,17 +2819,12 @@
 			{
 				"name": "The Old Bear",
 				"tag": "Passive",
-				"definition": "Placeholder"
+				"definition": "Jeor Mormont passes Fate Rolls on a 3+. Additionally, when making a Fate Roll, if the result is a 4 or better, then the Fate Point is free and is not spent."
 			},
 			{
 				"name": "The Sword in the Darkness",
 				"tag": "Passive",
-				"definition": "Placeholder"
-			},
-			{
-				"name": "Watcher of the Bay of Seals",
-				"tag": "Passive",
-				"definition": "Placeholder"
+				"definition": "If Qhorin Halfhand is slain in close combat, he may immediately make one Strength 4 Strike on each enemy model that was involved in the Combat in which Qhorin Halfhand was slain. Qhorin Halfhand may use Might to increase these To Wound rolls as normal."
 			}
 		],
 		"armyBonuses": [
@@ -2933,6 +2832,10 @@
         		"name": "Masters of Terrain",
         		"definition": "Friendly models gain the Woodland Creature and Mountain Dweller special rules."
       		},
+			{
+				"name": "Take the Wall!",
+				"definition": "Once per game, in Scenarios that use Objective Markers, your General can use this special rule during their Move to choose an Objective Marker in base contact. So long as your general is alive and on the battlefield, friendly models within range of the chosen Objective Marker gain the Dominant (2) special rule."
+			},
 			{
         		"name": "Watchers on the Wall",
         		"definition": "Friendly Nights Watch models that are within their deployment zone, and/or within 6\" of a friendly Siege Engine, gain a bonus of +1 To Wound when making strikes."
